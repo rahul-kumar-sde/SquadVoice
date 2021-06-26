@@ -1,0 +1,18 @@
+/* Start of CSS for the offline page*/
+html,body
+{
+    height: 100%;
+}
+.offline
+{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: rgb(75, 78, 83);
+    height: 100%;
+    width: 100%; 
+    justify-content: center;
+    align-items: center;
+}
+
+/* End of CSS for the offline page*/

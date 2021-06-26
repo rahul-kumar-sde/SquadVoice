@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>SquadVoice</title>
+</head>
+<body>
+    <div class="offline hide">
+        <h1>You are not connected to Internet!</h1>
+    </div>
+   
+    <div class="main-body">
+        <div class="range">
+            <div class="range1">$100k - $200k</div>
+            <div class="range2">$200k - $300k</div>
+            <div class="range3">$300k - $400k</div>
+            <div class="range4">$400k - $500k</div>
+            <div class="range5">$500k+</div>
+        </div>
+       
+        <div class="row2">
+            <div class="box col1">
+                <div class="popular hide-text">Most Popular!</div>
+                <div class="details">
+                    <div class="plan-name">Qualified 20</div>
+                    <div class="price">
+                        <div class="price-value">$99</div>
+                        <div>Per Qualified lead</div>
+                    </div>
+                    <div class="hyphens">-------------------------------</div>
+                    <div class="number-leads">
+                        <div>Qualified Leads Per Month</div>
+                        <div>20</div>
+                    </div>
+                    <div class="hyphens">-------------------------------</div>
+                    <div class="platform-price">
+                        <div>Platform Fee Per Month</div>
+                        <div>$299</div>
+                    </div>
+                    <div class="total col1">$2,279/mo</div>
+                </div>
+                <button class="start num1">Start Your Trial</button>
+            </div>
+            <div class="box col2">
+                <div class="popular">Most Popular!</div>
+                <div class="details details-pop">
+                    <div class="plan-name">Qualified 40</div>
+                    <div class="price">
+                        <div class="price-value">$96</div>
+                        <div>Per Qualified lead</div>
+                    </div>
+                    <div class="hyphens">-------------------------------</div>
+                    <div class="number-leads">
+                        <div>Qualified Leads Per Month</div>
+                        <div>40</div>
+                    </div>
+                    <div class="hyphens">-------------------------------</div>
+                    <div class="platform-price">
+                        <div>Platform Fee Per Month</div>
+                        <div>$599</div>
+                    </div>
+                    <div class="total col2">$4,439/mo</div>
+                </div>
+                <button class="start start-pop num2">Start Your Trial</button>
+            </div>
+            <div class="box col3">
+                <div class="popular hide-text">Most Popular!</div>
+                <div class="details">
+                    <div class="plan-name">Qualified 80</div>
+                    <div class="price">
+                        <div class="price-value">$90</div>
+                        <div>Per Qualified lead</div>
+                    </div>
+                    <div class="hyphens">-------------------------------</div>
+                    <div class="number-leads">
+                        <div>Qualified Leads Per Month</div>
+                        <div>80</div>
+                    </div>
+                    <div class="hyphens">-------------------------------</div>
+                    <div class="platform-price">
+                        <div>Platform Fee Per Month</div>
+                        <div>$799</div>
+                    </div>
+                    <div class="total col3">$7,999/mo</div>
+                </div>
+                <button class="start num3">Start Your Trial</button>
+            </div>
+            <div class="box col4">
+                <div class="popular hide-text">Most Popular!</div>
+                <div class="details">
+                    <div class="plan-name">Enterprise</div>
+                    <p class="text">Want more than 80 qualified leads each month?</p>
+                </div>
+                <button class="start num4">Get in Touch</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal hide">
+        <div class="inner-box">
+            <div class="form-title-row">
+                <h2 class="form-title">Get Started with SquadVoice</h2>
+                <p class="close">×</p>
+            </div>
+            <div class="plan-selected"><strong>Plan Selected: </strong><span class="plan-value">Qualified 40<span></span></div>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <div class="modal-rows">
+                    <div class="row-box">
+                    <label for="email">Email Address:</label><br>
+                    <input type="text" id="email" name="email">
+                    </div>
+                    <div class="row-box">
+                    <label for="phone">Phone:</label><br>
+                    <input type="text" id="phone" name="phone"><br>
+                    </div>
+                </div>
+                <div class="modal-rows">
+                    <div class="row-box">
+                    <label for="num-leads">Number of leads you generate in a month</label><br>
+                    <input type="number" id="num-leads" name="num-leads">
+                    </div>
+                    <div class="row-box">
+                    <label for="crm">Total leads in your CRM</label><br>
+                    <input type="number" id="crm" name="crm"><br>
+                    </div>
+                </div>
+                <div class="modal-rows">
+                    <div class="row-box">
+                    <label for="crm-type">Which CRM do you use?</label><br>
+                    <input type="number" id="crm-type" name="crm-type">
+                    </div>
+                    <div class="row-box">
+                    <label for="agents">No. of Agents</label><br>
+                    <input type="number" id="agents" name="agents"><br>
+                    </div>
+                </div>
+                
+                <div class="lead">
+                <label for="lead-source">What are your biggest lead-sources?</label><br>
+                <input type="checkbox"  class="leads" name="Zillow" value="Zillow">
+                <label for="lead-source">Zillow</label>
+                <input type="checkbox"  class="leads" name="Realtor" value="Realtor">
+                <label for="lead-source">Realtor</label>
+                <input type="checkbox"  class="leads" name="Ylopo" value="Ylopo">
+                <label for="lead-source">Ylopo</label>
+                <input type="checkbox"  class="leads" name="Others" value="Others">
+                <label for="lead-source">Others</label><br>
+                </div>
+
+                <div class="sources">
+                <label for="source">How did you hear about us?</label><br>
+                <input type="checkbox"  class="source-name" name="Google" value="Google">
+                <label for="source">Google</label>
+                <input type="checkbox"  class="source-name" name="Facebook" value="Facebook">
+                <label for="source">Facebook</label>
+                <input type="checkbox"  class="source-name" name="Email" value="Email">
+                <label for="source">Email</label>
+                <input type="checkbox"  class="source-name" name="Friends" value="Friends">
+                <label for="source">Friends</label>
+                <input type="checkbox"  class="source-name" name="Real Closers" value="Real Closers">
+                <label for="source">Real Closers</label>
+                </div>
+            </form>
+            <button class="submit">Submit</button>
+       </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

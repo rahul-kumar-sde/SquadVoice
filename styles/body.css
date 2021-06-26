@@ -1,0 +1,180 @@
+/* Css for main-page*/
+.main-body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+}
+.range
+{
+    margin: 5%;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black; 
+    height: 8%;
+    width: 80%;
+}
+
+.range1,.range2,.range3,.range4,.range5
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247,247,247);
+    margin-right: 1px;
+    width:20%;
+    height: 100%;
+}
+
+.range5
+{
+    margin-right: 0px;  
+    
+}
+
+.range1,.range2,.range3,.range4,.range5:hover
+{
+    cursor: pointer;
+}
+
+.selected
+{
+    background-color: rgb(90,111,144);
+}
+
+.row2
+{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    height:90%;
+}
+
+.box
+{
+    display: flex;
+    flex-direction: column;
+    margin-left:2%;
+    margin-right:2%;
+    width: 24%;
+    text-align: center;
+    font-size: 1.1em;
+    height: 100%;
+    
+}
+.details
+{
+    height: 100%;
+}
+
+.popular,.plan-name,.total,.start,
+.platform-price,.number-leads,.price,.text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular,.plan-name,.total,.start
+{
+    height:10%;
+    font-weight: bolder;
+}
+
+.price
+{
+    height: 30%;
+}
+.price-value
+{
+    font-size: 1.8em;
+}
+
+.platform-price,.number-leads
+{
+    height: 20%;
+}
+
+
+.plan-name,.total
+{
+    background-color: rgb(90,111,144);
+    color: white;
+}
+
+.popular
+{
+    background-color: rgb(238, 90, 54);
+    color: white;
+
+}
+
+
+.start
+{
+    margin-top: 5%;
+    border-color: rgb(238, 90, 54);
+    background-color: white;
+    color: rgb(238, 90, 54);
+}
+.start:hover
+{
+    cursor: pointer;
+}
+
+.start-pop
+{
+    margin-top: 5%;
+    background-color: rgb(238, 90, 54);
+    color: white;
+}
+.details-pop
+{
+    background-color: rgb(247,247,247); 
+}
+.text
+{
+    height: 92%;
+    font-size: 2em;
+    background-color: rgb(247,247,247);
+    margin: 0%;
+}
+
+.hyphens
+{
+    color: rgb(233,233,233);
+}
+
+@media screen and (max-width: 992px) 
+{
+    .range
+    {
+        font-size: small;
+        height: 5%;
+    }
+
+    .row2
+    {
+        font-size: small;
+        height: 95%;
+    }
+
+
+    .popular,.plan-name,.total,.start
+    {
+        height: fit-content;
+    }
+
+    .text
+    {
+        height: 96%;
+        font-size: 1.5em;
+    }
+}
+/*End of main page*/

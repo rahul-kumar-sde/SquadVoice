@@ -1,0 +1,99 @@
+/*modal.css*/
+.modal
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.form-title-row
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.form-title
+{
+    margin-top: 0%;
+    width: 99%;
+    text-align: center;
+    border-bottom: black 2px solid;
+}
+.close
+{
+    margin-top: 0%;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.inner-box
+{
+    width: 60%;
+    height: 80%;
+    border: 1px solid black;
+    padding: 2%;
+    background-color: rgb(252, 252, 252);
+}
+.modal-rows
+{
+    display: flex;
+    flex-direction: row;   
+    padding: 2% 2% 0% 0%;
+    height: 18%;
+}
+
+form
+{
+    margin: 2% 0% 1% 0%;
+    height: 75%;
+}
+.row-box
+{
+    width: 50%;
+}
+.row-box:first-child
+{
+    margin-right: 5%;
+}
+
+#name
+{
+    width: 98%;
+    height: 10%;
+}
+#email,#phone,#num-leads,#crm,#crm-type,#agents
+{
+    width: 100%;
+}
+
+.lead,.sources
+{
+    margin-top: 2%;
+}
+.lead,.sources
+{
+    height: 15%;
+}
+
+.submit
+{
+    margin-top: 2%;
+    height: 7%;
+    background-color: #ee5a36 ;
+    width: 90px;
+    color: white;
+    border: none;
+}
+
+.submit:hover
+{
+    background-color: #fa481b ; 
+}
+
+/*end of modal.css*/
